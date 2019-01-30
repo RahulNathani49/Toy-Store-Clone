@@ -1,0 +1,634 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.landingpage{
+    width: 100%;
+    height: 95%;
+    background-image: url(../images/firstpage.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header{
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.nav-top{
+    width: 100%;
+    background-color:#a5c926;
+}
+.nav-top-inner{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    
+}
+.nav-top-left p{
+    display: inline-block;
+    padding: 10px;
+    color:white;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+}
+.nav-top-left{
+    float: left;
+}
+.nav-top-right{
+    float: right;
+    
+}
+.nav-top-right i{
+    color:white;
+    padding: 10px 5px;
+    
+}
+.nav-main{
+    width: 100%;
+    top: 36px;
+    background-color: white;
+    box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, .12);
+}
+.nav-main-inner{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.nav-left{
+    float: left;
+    padding: 20px 10px;
+}
+.nav-left a{
+    color: #333333;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+}
+.nav-right{
+    float: left;
+    
+}
+.nav-right .links{
+    float: left;
+    margin-left: 20px;
+}
+.links li{
+    display: inline-block;
+    line-height: 66px;
+    font-size: 14px;
+    padding: 0  18px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    font-weight: 400;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cart{
+    float: right;
+    padding: 20px 0;
+    cursor:pointer;
+}
+.cart p{
+    display: inline-block;
+    padding:0 5px;
+}
+.circle{
+    
+display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:#a5c926;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+.midpart{    
+    background-color: white;
+    padding:40px 70px;
+    position: relative;
+    top:55%;     
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 16px;
+    text-align: center;
+    display: inline-block;  
+}
+.midpart p{
+    color: #a5c926;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    padding: 
+}
+
+.midpart h1{
+    color:#111111;
+    font-family:"Varela Round", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding:10px 0 35px 0;
+   margin: auto;
+    
+}
+.midpart a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #a5c926;
+    border-radius: 30px;
+    display: inline-block;
+    transition: .5s ease all;
+    font-family: "open sans",sans-serif;
+    font-size: 14px;
+
+}
+.midpart a:hover{
+    box-shadow: 0 8px 8px -4px rgba(165, 201, 38, .5);
+    transform: scale(1.1);
+    transition: .5s ease all;
+}
+.mouse{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+.mouseinner{
+    width: 25px;
+    height:35px;
+    border-radius: 50%;
+    border:2px solid #bbb;
+    margin: auto;
+    top:50%;
+    position:relative;
+    transform: translateY(-50%);
+}
+.mousedot{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: auto;
+    margin-top:5px;
+    animation: dot;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
+}
+@keyframes dot{
+    0%{
+        margin-top: 5px;
+        opacity: 1;
+    }
+    20%{
+        margin-top: 5px;
+        opacity: 1;
+    }
+    100%{
+        margin-top: 23px;
+        opacity: 0;
+    }
+}
+
+.second-page{
+    overflow: auto;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative
+    }
+.second-page-first-part{
+    width: 90%;
+    margin: auto;
+    padding:122px 10px;
+    overflow: auto;
+}
+.left-part{
+    width: 48%;
+    float: left;
+    background-color: #ffc12c;
+    overflow: visible;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.second-page-first-part img{
+    position: relative;
+    top:-60px;
+    float: left;
+    height: 220px;
+}
+.teddy-cont {
+    float: left;
+    position: absolute;
+    top:50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+.second-page-first-part h1{
+ font-size: 28px;
+    font-weight: 400;
+    font-family: "Varela Round", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding:10px 0 20px 0;
+}
+.second-page-first-part a{
+    background-color: white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #111111;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+     transition: .5s ease all;
+}
+.second-page-first-part a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px -4px hsla(0, 0%, 7%, .2);
+    transition: .5s ease all;
+}
+.right-part{
+   width: 48%;
+    float: left;
+    background-color: #fb416b;
+    overflow: visible;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 4%;
+}
+
+.right-part img{
+    float: right;
+}
+.right-part .teddy-cont{
+     position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.right-part a{
+    margin-left: 90px;
+}
+.second-page-second-part{
+    width: 90%;
+    margin: auto;
+}
+.second-page-second-part h3{
+    font-size: 22px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+   
+}
+.top-head{
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.st{
+    float: left;
+}
+.rightl{
+    float: right;
+    height: 30px;
+    border-bottom: 2px solid lightgray; 
+    transition: .3s;
+}
+.rightl:hover{
+     border-bottom: 2px solid #a5c926;
+    transition: .3s;
+}
+.rightl a{
+    font-size: 13px;
+    color: #111111;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.shop-header-line{
+    width: 100%;
+    height: 2px;
+    background-color: lightgray;
+    clear: both;
+}
+.left-header{
+    width: 15%;
+    height: 2px;
+    background-color: #a5c926;
+}
+.sell-items{
+    width: 100%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding-bottom: 100px;
+     overflow: visible;
+}
+.si{
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+.image-top{
+    margin: auto;
+    width: 182px;
+    margin-bottom: 20px;
+}
+.si img{
+    height: 182px;
+}
+.sell-items h6{
+    text-align:center;
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+}
+.sell-items .butt{
+    text-align: center;
+    background-color: #a5c926;
+    height: 25px;
+    width: 64px;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.si{
+        box-shadow: 0 8px 20px -12px rgba(0, 0, 0, .15);
+        transition: .4s;
+        overflow: auto;
+}
+.si:hover{
+       box-shadow: 0 8px 20px -4px rgba(0, 0, 0, .15);
+    transition: .4s;
+    transform: scale(1.04);
+}
+.butt a{
+    color: white;
+    text-decoration: none;
+}    
+.Story{
+    width: 100%;
+    height: 70%;
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),  url(../images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.title p{
+    padding: 20px;
+    font-family: "open-sans",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.title h2{
+    font-size: 36px;
+    font-weight: 400;
+    
+}
+.circlebut{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #a5c926;
+    margin: auto;
+    transition: .3s;
+}
+.circlebut:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.circlebut i{
+    line-height: 60px;
+    font-size: 18px;
+}
+.web-flow{
+    overflow: auto;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.web-flow-inner{
+    width:90%;
+    margin: auto;
+}
+.web-title{
+    padding:100px;
+    text-align:center;
+}
+.web-title p{
+    color: #a5c926;
+    font-size: 13px;
+    font-family: "open-sans",sans-serif;
+}
+.web-title h1{
+    font-family: "Varela Round", sans-serif;
+    font-size:32px;
+    font-weight: 400;
+    padding: 10px;
+}
+.left-web{
+    width: 50%;
+    float: left;
+}
+.left-web-title{
+    margin-top: 50px;
+}
+.left-web-title h1{
+    font-family: "Varela Round", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.underline{
+        width: 15%;
+    height: 2px;
+    background-color: #a5c926;
+}
+.left-web-title p{
+    font-size: 14px;
+    line-height:1.7;
+    font-family: "Open Sans", sans-serif;
+    color:#999999;
+    padding:20px 0;
+    width: 80%;  
+}
+.left-web-title a{
+        color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #a5c926;
+    border-radius: 30px;
+    transition: .5s ease all;
+    font-family: "open sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+.left-web-title a:hover{
+      box-shadow: 0 8px 8px -4px rgba(165, 201, 38, .5);
+    transform: scale(1.05);
+    transition: .5s ease all;
+}
+.spider-page{
+    overflow: auto;
+}
+.right-web{
+    float: left;
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.right-web img{
+    width: 100%;
+}
+.subscribe{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 70px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15);
+    margin:100px 0 0 0; 
+    clear: both;
+    overflow: auto;
+}
+.circle-left{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:#a5c926;
+    text-align: center;
+    float: left;
+}
+.circle-left img{
+    margin-top: 15px;
+}
+.head-sub{
+    float: left;
+    
+}
+.head-sub h1{
+    font-size: 24px;
+    font-family: 
+"Varela Round", sans-serif;
+    font-weight: 400;
+    padding: 0 20px;
+}
+span{
+    color:#a5c926; 
+}
+.right-form{
+    float:right;
+}
+input[type="email"]{
+background-color: #f8f8f8;
+    outline:none;
+    border:none;
+    border-radius: 24px;
+        height: 50px;
+    width: 400px;
+        border: 2px solid #e5e5e5;
+    padding:0 30px;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+}
+input:hover{
+    background-color: white;
+}
+input[type="email"]:focus{
+    border:2px solid #a5c926;
+    background-color: white;
+}
+input[type="submit"]{
+    background-color: #a5c926;
+    outline:none;
+    border:none;
+    color: white;
+    border-radius: 24px;
+        height: 50px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    margin-left: 20px;
+    transition: .4s;
+}
+input[type="submit"]:hover{
+    transform: scale(1.05);
+    transition: .4s;
+    box-shadow: 0 8px 8px -4px rgba(165, 201, 38, .5);
+}
+.insta-title{
+    text-align:center;
+    padding:100px;
+}
+.insta-title p{
+      font-size: 13px;
+    font-weight: 400;
+    color: #a5c926;  
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+}
+.insta-title h1{
+font-size: 32px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+}
+.toys{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    
+}
+.toy{
+    transition: .4s;
+    background-color: #f8f8f8;
+}
+.toy img{
+    width: 200px;
+    border-radius: 20px;
+}
+.toy img:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, .16);
+    
+}
+
+.buttlast{
+    margin: 40px auto;
+    text-align:center;
+}
