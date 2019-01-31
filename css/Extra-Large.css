@@ -1,0 +1,24 @@
+@media only screen  and (min-width : 1824px) {
+    .nav-top-inner{
+        width: 50%;
+    }
+    .nav-main-inner{
+        width: 50%;
+    }
+    .second-page-first-part{
+        width: 50%;
+    }
+    .second-page-second-part{
+        width: 50%;
+    }
+    .story{
+        height: 20%;
+    }
+    .web-flow-inner{
+        width: 50%;
+    }
+    .foot-half-width{
+        width: 50%;
+    }
+    
+}
