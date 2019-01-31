@@ -1,6 +1,14 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
     .landingpage{
-        height: 50%;
+     height: 50%;
+        
+    }
+    .u{
+        display: none;
+    }
+    .midpart{
+        padding: 10px;
+        width: 90%;
     }
     .links{
         display: none;
