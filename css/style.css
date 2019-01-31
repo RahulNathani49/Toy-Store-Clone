@@ -508,7 +508,7 @@ display: inline-block;
     overflow: auto;
 }
 .right-web{
-    float: left;
+    float: right;
     width: 50%;
     border-radius: 20px;
     overflow: hidden;
@@ -538,8 +538,7 @@ display: inline-block;
     margin-top: 15px;
 }
 .head-sub{
-    float: left;
-    
+    float: left; 
 }
 .head-sub h1{
     font-size: 24px;
