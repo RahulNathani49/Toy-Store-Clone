@@ -439,6 +439,7 @@ display: inline-block;
     overflow: auto;
     width: 100%;
     background-color: #f8f8f8;
+    padding:0 0 100px 0;
 }
 .web-flow-inner{
     width:90%;
@@ -618,17 +619,108 @@ font-size: 32px;
     background-color: #f8f8f8;
 }
 .toy img{
-    width: 200px;
+    width: 182px;
     border-radius: 20px;
 }
 .toy img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: .4s;
     box-shadow: 0 8px 20px -4px rgba(0, 0, 0, .16);
     
 }
-
 .buttlast{
-    margin: 40px auto;
+    transition: .5s;
+    width: 180px;
+    margin:50px auto;
+}
+.buttlast a:hover{
+        box-shadow: 0 8px 8px -4px rgba(165, 201, 38, .5);
+    transform: scale(1.1);
+    transition: .5s ease all;
+}
+.buttlast a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #a5c926;
+    border-radius: 30px;
+    transition: .5s ease all;
+    font-family: "open sans",sans-serif;
+    display: inline-block;
+    font-size: 14px;
+        text-align: center;
+}
+footer{
+    overflow: auto;
+    
+}
+.foot-full-width{
+    width: 100%;
+    background-color: #a5c926;
+      overflow: auto;
+}
+.foot-half-width{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+}
+.left-foot{
+    float:left; 
+    display: inline-block;
+}
+.left-foot h1{
+   color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Varela Round", sans-serif;
+}
+.foot-full-width ul{
     text-align:center;
+}
+.foot-full-width li{
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    font-family:"Open Sans", sans-serif;
+    padding: 0 20px;
+}
+.right-foot{
+    float: right;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top:-13px;
+}
+.right-foot i{
+    padding: 0 5px;
+
+}
+.underlinefoot{
+    width: 100%;
+    height: 0.2px;
+    background-color: white;
+    margin-top: 40px;
+    opacity: .4;
+}
+.left-foot-link{
+    float:left;
+    
+}
+.right-foot-link{
+    float:right;
+}
+.left-foot-link p{
+    color: white;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 25px 0 0 0 ;
+}
+.right-foot-link p{
+        color: white;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 25px 0 0 0 ;
 }
