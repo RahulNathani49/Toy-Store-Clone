@@ -7,8 +7,12 @@
         display: none;
     }
     .midpart{
-        padding: 10px;
+      
         width: 90%;
+        
+    }
+    .midpart h1{
+        font-size: 22px;
     }
     .links{
         display: none;
