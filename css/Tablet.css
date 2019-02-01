@@ -1,6 +1,6 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .landingpage{
-        height: 50%;
+        height: 100%;
     }
     .left-part{
         width: 100%;
@@ -112,5 +112,50 @@
     }
     .underlinefoot{
         clear: both;
+    }
+    .menu-icon{
+        display: inline-block;
+        padding:10px;
+        margin:0 -10px 0 10px;
+     
+    }
+    .cart{
+       padding:15px 0; 
+    }
+    .cart i{
+      font-size: 18px;
+    }
+    
+    .line{
+        height: 70px;
+        width: 1px;
+        background-color: lightgray;
+        position: relative;
+        left:96%;
+    }
+    .navbut{
+        position: absolute;
+        top:106px;
+    }
+    .navbut {
+        width: 100%;
+ 
+        background-color: white;
+        font-family: "open sans",sans-serif;
+        color:#333333;
+         display: none;
+        position: absolute;
+        top:106px;
+        left: 0;
+    }
+    .menu-icon:hover + .navbut {
+        display: block;
+    }
+    .navbut li{
+        padding:15px;
+        border-bottom: 1px solid lightgray;
+    }
+    .navbut li:nth-child(1){
+        border-top:  1px solid lightgray;
     }
 }

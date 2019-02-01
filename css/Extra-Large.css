@@ -20,5 +20,11 @@
     .foot-half-width{
         width: 50%;
     }
+    .navbut{
+    display:none;
+}
+.menu-icon{
+    display: none;
+}
     
 }
