@@ -214,7 +214,7 @@
         font-family: "open sans",sans-serif;
         color:#333333;
          display: none;
-        position: absolute;
+        position:fixed;
         top:106px;
         left: 0;
     }
