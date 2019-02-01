@@ -9,11 +9,176 @@
         
         display: none;    
     }
+    .left-part{
+        width: 100%;
+        padding: 50px 0;
+       
+    }
+    .right-part{
+        width: 100%;
+        padding: 50px 0;
+        margin:80px auto 0;
+    }
+  .image{
+        margin: auto;
+        float: none;
+        width: 220px;
+    }
+    
+    .second-page-first-part img{
+        top:-100px;
+    }
     .midpart{
         padding: 30px 60px;
     }
     .midpart h1{
         font-size: 20px;
         padding: 20px 0;
+        
     }
+    .teddy-cont{
+   position: absolute;
+        top:70%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+
+    }
+    .right-part .teddy-cont{
+           position: absolute;
+        top:70%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .right-part .teddy-cont a{
+        margin: 0;
+    }
+    .left-header{
+        width: 45%;
+    }
+    .sell-items{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+        grid-row-gap: 30px;
+    }
+    story{
+        background-size: contain;
+        background-position: right top;
+    }
+    .title h2{
+        font-size: 34px;
+    }
+    .title{
+        width: 80%;
+    }
+    .title p{
+        line-height: 1.4;
+        font-weight: 100;
+    }
+    .web-title{
+        padding: 50px 10px;
+        width: 100%;
+    }
+    .web-title h1{
+        font-size: 28px;
+        font-weight: 100;
+    }
+     .left-web{
+        width: 100%;
+        text-align: center;
+    }
+    .left-web p{
+        width: 80%;
+        margin: auto;
+    }
+    .underline{
+        margin: auto;
+    }
+    .right-web{
+    width: 100%;
+        float: none;
+        margin: auto;
+    }
+     .circle-left{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    .head-sub{
+        float: none;
+        width: 100%;
+        text-align:center;
+        padding: 30px 0 40px 0;
+        font-size: 20px;
+    }
+    .head-sub h1{
+        padding: 0; 
+        font-size: 21px;
+    }
+    .right-form{
+        float:none;
+    }
+    input[type="email"]{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    input[type="submit"]{
+        width: 100%;
+        margin: 0;
+    }
+    .subscribe{
+        width: 100%;
+        margin:50px auto;
+        padding: 40px 25px;
+    }
+    .insta-title{
+        padding: 20px 20px 50px 20px;
+    }
+    .toys{
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+    .toy img{
+        width: 100px;
+    }
+    .web-flow{
+        padding-bottom: 30px;
+    }
+    .foot-half-width{
+      padding:50px 0;
+    }
+    .foot-half-width h1{
+        display: block;
+    }
+    .foot-link{
+        width: 100%;
+        clear: both;
+    }
+    .foot-link li{
+        padding:5px;
+    }
+    .foot-link ul{
+        text-align:left;
+        padding: 20px 0;
+    }
+    .right-foot{
+        clear:both;
+        float: left;
+        padding: 15px 0;
+    }
+    .left-foot-link{
+        float:none;
+    }
+    .right-foot-link{
+        float: none;
+    }
+    .right-foot-link p{
+        padding: 10px 0;
+    }
+    
 }
